@@ -1,0 +1,13 @@
+{
+  "name": "lerna_demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "彭飞凡",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

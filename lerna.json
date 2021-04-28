@@ -1,0 +1,15 @@
+{
+  "packages": ["packages/*"],
+  "version": "independent",
+  "useWorkspaces": true,
+  "npmClient": "yarn",
+  "command": {
+    "version": {
+      "allowBranch": ["master"]
+    },
+    "publish": {
+      "ignoreChanges": ["*.md", "package-lock.json", "yarn.lock"]
+    },
+    "bootstrap": {}
+  }
+}
